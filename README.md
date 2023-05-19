@@ -27,7 +27,9 @@ $ cd grpc_pynet
 1. Create and activate a virtual environment:
 
 $ python -m venv venv
+
 $ cd venv\Scripts
+
 $ activate.bat
 
 2. Install the required Python dependencies:
