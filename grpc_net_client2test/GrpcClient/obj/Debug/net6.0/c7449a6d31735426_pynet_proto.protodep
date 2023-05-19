@@ -1,0 +1,2 @@
+obj\Debug\net6.0/PynetProto.cs \
+obj\Debug\net6.0/PynetProtoGrpc.cs: ../../protos/pynet_proto.proto

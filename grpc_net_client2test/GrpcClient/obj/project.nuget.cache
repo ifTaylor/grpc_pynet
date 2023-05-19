@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "pfdRw2WHfSCH0KgUOkBBn0DNiHNr+i9FOgrPMmjh8LvA1xZmxPuI/wj8FkRcQmSQ53KzgTjXntXALKGe3l7Yww==",
+  "success": true,
+  "projectFilePath": "C:\\xcode\\grpc_pynet\\grpc_net_client2test\\GrpcClient\\GrpcClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tturner\\.nuget\\packages\\google.protobuf\\3.23.0\\google.protobuf.3.23.0.nupkg.sha512",
+    "C:\\Users\\tturner\\.nuget\\packages\\grpc.core.api\\2.53.0\\grpc.core.api.2.53.0.nupkg.sha512",
+    "C:\\Users\\tturner\\.nuget\\packages\\grpc.net.client\\2.53.0\\grpc.net.client.2.53.0.nupkg.sha512",
+    "C:\\Users\\tturner\\.nuget\\packages\\grpc.net.common\\2.53.0\\grpc.net.common.2.53.0.nupkg.sha512",
+    "C:\\Users\\tturner\\.nuget\\packages\\grpc.tools\\2.54.0\\grpc.tools.2.54.0.nupkg.sha512",
+    "C:\\Users\\tturner\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\tturner\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
