@@ -13,35 +13,70 @@ Make sure you have the following installed on your machine:
 
 1. Clone the repository:
 
-shell
-```
-git clone https://github.com/ifTaylor/grpc_pynet.git
-```
+    ```shell
+    git clone https://github.com/ifTaylor/grpc_pynet.git
+    ```
 
 2. Change to the project directory:
 
-  $ cd grpc_pynet
+    ```shell
+    cd grpc_pynet
+    ```
 
-## Python Client Setup
+## Run .NET 6 Server
+
+1. Change to the server directory from root:
+
+    ```shell
+    cd grcp_net_server
+    cd GrpcService
+    ```
+
+2. Start the server:
+
+    ```shell
+    dotnet run
+    ```
+
+## Run Python Client
 
 1. Create and activate a virtual environment:
 
-  $ python -m venv venv
-
-$ cd venv\Scripts
-
-  $ activate.bat
+    ```shell
+    python -m venv venv
+    cd venv\Scripts
+    activate.bat
+    ```
 
 2. Install the required Python dependencies:
 
-  $ pip install -r client/requirements.txt
+    ```shell
+    pip install -r client/requirements.txt
+    ```
 
-## .NET 6 Server Setup
+3. Change to the client script directory:
 
-Change to the server directory:
+    ```shell
+    cd grpc_py_client
+    ```
 
-  $ cd grcp_net_server
-  $ cd GrpcService
-  $ dotnet run
+3. Run the client request:
 
-## Usage
+    ```shell
+    python GrpcClient.py
+    ```
+
+## Run .NET 6 Client
+
+1. Change to the server directory from root:
+
+    ```shell
+    cd grcp_net_client2test
+    cd GrpcClient
+    ```
+
+2. Start the client:
+
+    ```shell
+    dotnet run
+    ```
