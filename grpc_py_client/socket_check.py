@@ -18,7 +18,7 @@ def is_port_open(host, port):
 
 if __name__ == "__main__":
     host = '127.0.0.1'
-    port = 5002
+    port = 5000
     if is_port_open(host, port):
         print(f"Port {port} is open on {host}")
     else:

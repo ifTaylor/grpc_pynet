@@ -10,7 +10,7 @@ var channelOptions = new GrpcChannelOptions
     HttpHandler = handler
 };
 
-var channel = GrpcChannel.ForAddress("http://127.0.0.1:5002",channelOptions);
+var channel = GrpcChannel.ForAddress("http://127.0.0.1:5000",channelOptions);
 
 var client = new Greeter.GreeterClient(channel);
  var reply = await client.SayHelloAsync(
