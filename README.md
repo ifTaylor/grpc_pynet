@@ -15,7 +15,7 @@ Make sure you have the following installed on your machine:
 
 shell
 ```
-git clone https://github.com/your-username/grpc-python-dotnet6.git
+git clone https://github.com/ifTaylor/grpc_pynet.git
 ```
 
 2. Change to the project directory:
