@@ -25,15 +25,18 @@ $ cd grpc_pynet
 ## Python Client Setup
 
 1. Create and activate a virtual environment:
+
 python -m venv venv
 venv\Scripts\activate.bat
 
 2. Install the required Python dependencies:
+
 $ pip install -r client/requirements.txt
 
 ## .NET 6 Server Setup
 
 Change to the server directory:
+
 $ cd grcp_net_server
 $ cd GrpcService
 $ dotnet run
