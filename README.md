@@ -20,28 +20,28 @@ git clone https://github.com/your-username/grpc-python-dotnet6.git
 
 2. Change to the project directory:
 
-$ cd grpc_pynet
+  $ cd grpc_pynet
 
 ## Python Client Setup
 
 1. Create and activate a virtual environment:
 
-$ python -m venv venv
+  $ python -m venv venv
 
 $ cd venv\Scripts
 
-$ activate.bat
+  $ activate.bat
 
 2. Install the required Python dependencies:
 
-$ pip install -r client/requirements.txt
+  $ pip install -r client/requirements.txt
 
 ## .NET 6 Server Setup
 
 Change to the server directory:
 
-$ cd grcp_net_server
-$ cd GrpcService
-$ dotnet run
+  $ cd grcp_net_server
+  $ cd GrpcService
+  $ dotnet run
 
 ## Usage
